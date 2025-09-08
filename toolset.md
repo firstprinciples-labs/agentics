@@ -1,14 +1,40 @@
----
-# 2025-09-10 Codng Workshop
 
-## The Tool Set / Setup
+# Coding Workshop - 2025-09-10 
+
+## Pre-requisites
+ 1. Github account: https://github.com/
+ 2. Claude Code account: https://www.anthropic.com/claude-code
+ 3. An idea 💡!
+ 4. This repo / file: https://github.com/firstprinciples-labs/agentics -> toolset.md
+
+## The Toolset and Setup
 
 ### GitHub
-* create codespace
+* Create repository
+* Create / open codespace (VSCode)
+* Open Terminal (linux)
 
 ### Claude Code
-'''
+* Install Claude code
+```
 npm install -g @anthropic-ai/claude-code
-'''
+```
+* Authenticate and Set in autonomous mode
+```
+claude --dangerously-skip-permissions
+```
+* Exit Claude Code (hit ctrl-c twice)
 
+### Claude Flow
 * https://github.com/ruvnet/claude-flow
+```
+npx claude-flow@alpha init --force
+```
+
+### Claude Code + Claude Flow
+* Open Claude Code again (up arrow + enter)
+* Start prompting!!
+
+## Agentic Workflow
+### 
+
